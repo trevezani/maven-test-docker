@@ -4,17 +4,17 @@ Testing with JUnit 5 and Docker
 
 ## Options
 
-Generating the artifacts and the image
-
-`mvn clean package -Pimage -DskipTests`
-
 Generating only the artifacts
 
-`mvn clean package -DskipTests`
+`mvn clean package`
+
+Generating the artifacts and the image
+
+`mvn clean package -Pimage`
 
 Running integration tests
 
-`mvn integration-test`
+`mvn verify -PrunTests`
 
 
 ## Tecnologies in this sample
