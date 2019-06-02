@@ -141,7 +141,7 @@
 										</ports>
 										<wait>
 											<http>
-												<url>http://localhost:8080/maven-test-docker/api/versao</url>
+												<url>http://localhost:8080/maven-test-docker/api/healthcheck</url>
 											</http>
 											<time>30000</time>
 										</wait>
@@ -163,7 +163,6 @@
 					</execution>
 				</executions>
 			</plugin>
-
 		</plugins>
 	</build>
 

@@ -59,5 +59,7 @@ class VersaoTest {
 		Assert.assertTrue(!response.isEmpty());
 
 		System.out.println("[response] " + response);
+		
+		Assert.assertEquals(response, "v1.00", response);
 	}
 }
