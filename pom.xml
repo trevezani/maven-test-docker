@@ -25,7 +25,7 @@
 		<jersey.core.version>2.22.1</jersey.core.version>
 		<javax.ws.rs-api.version>2.0</javax.ws.rs-api.version>
 		<slf4j-api.version>1.7.25</slf4j-api.version>
-		<jackson.version>2.9.9</jackson.version>
+		<jackson.version>2.13.4.1</jackson.version>
 		<httpclient.version>4.5.2</httpclient.version>
 		<dockerfile-maven-version>1.4.10</dockerfile-maven-version>
 		<docker-maven-version>1.2.0</docker-maven-version>
